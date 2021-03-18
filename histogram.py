@@ -29,6 +29,6 @@ def  frequency_histogram( ):
     numbers,frequences = frequency(numList)
     for i in range(len(numbers)):     
         histogram(numbers[i], frequences[i] )
-        ######
+        
 if __name__=='__main__':
     frequency_histogram()
