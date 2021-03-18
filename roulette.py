@@ -16,6 +16,6 @@ while True:
     print('Μικρός' if is_small else 'Μεγάλος', end=' ')        
     print('Ζυγός' if is_even else 'Μονός', end=' ')
     print('Κόκκινος' if is_red else 'Μαύρος')
- 
+  ########
     if input('Enter: Συνέχεια, q: Έξοδος ')=='q':
         break
