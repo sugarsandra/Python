@@ -20,7 +20,7 @@ def frequency(lista):
             times=lista.count(num)
             freqs.append(times)   # λίστα με τη συχνότητα
 
-    return nums,freqs
+    return nums
     
 def  frequency_histogram( ):
     N=int(input("Δώστε το πλήθος των τυχαιων αριθμών"))
